@@ -18,7 +18,7 @@ Integrantes
  Enlaces Importantes
 * **🚀 Hosting (Sitio en vivo):**  https://hectorjavier1925-afk.github.io/La_Brujula_De_Viajes/ 
 * **📺 Defensa del Proyecto:** [PENDIENTE - Link de YouTube]
-* **📂 Repositorio Oficial:** 
+* **📂 Repositorio Oficial:** https://github.com/hectorjavier1925-afk/La_Brujula_De_Viajes 
 
  Detalles Técnicos
 Sitio desarrollado con HTML5 y **Bootstrap v5.2.3**. Incluye estilos personalizados para la sección de promociones y un diseño adaptativo para móviles.
