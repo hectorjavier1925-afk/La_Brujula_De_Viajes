@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Agencia de Turismo - Playas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="imgs/logo.jpg" alt="Logo" style="height: 45px; margin-right: 10px;">
+                    La Brújula de Viajes
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <h1 id="Playa" class="fw-light text-center py-4">Playas en El Salvador </h1>
+
+        <div id="carouselPlayas" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="imgs/Puerto3.jpg" class="d-block w-100" style="height:400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="imgs/Tunco1.jpg" class="d-block w-100" style="height:400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="imgs/CostaSol1.jpg" class="d-block w-100" style="height:400px; object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlayas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPlayas" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <h2 class="fw-light text-center mb-4">Escoge la Playa de tu preferencia</h2>
+
+        <div class="card mb-5 border-0 shadow-sm overflow-hidden">
+            <div class="row g-0 bg-info bg-opacity-10">
+                <div class="col-md-6">
+                    <div id="carouselPuerto" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"><img src="imgs/Puerto1.jpg" class="d-block w-100" style="height:400px; object-fit: cover;"></div>
+                            <div class="carousel-item"><img src="imgs/Puerto2.jpg" class="d-block w-100" style="height:400px; object-fit: cover;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column">
+                    <div class="card-body">
+                        <h5 class="card-title">Puerto de La Libertad</h5>
+                        <p class="card-text">Conocido como la puerta de entrada a Surf City, este lugar es perfecto para comenzar el día. Disfruta de Sunset Park y el Mercado del Mar.</p>
+                    </div>
+                    <div class="text-center pb-4 mt-auto">
+                        <a class="btn btn-primary px-5" href="#" onclick="return false;">Reserva</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-5 border-0 shadow-sm overflow-hidden">
+            <div class="row g-0 bg-info bg-opacity-10">
+                <div class="col-md-6 order-md-2">
+                    <div id="carouselTunco" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"><img src="imgs/Tunco1.jpg" class="d-block w-100" style="height:400px; object-fit: cover;"></div>
+                            <div class="carousel-item"><img src="imgs/Tunco2.jpg" class="d-block w-100" style="height:400px; object-fit: cover;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column order-md-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Playa El Tunco</h5>
+                        <p class="card-text">El destino más emblemático del surf. Un ambiente cosmopolita y excelente ambiente para disfrutar con amigos o en pareja.</p>
+                    </div>
+                    <div class="text-center pb-4 mt-auto">
+                        <a class="btn btn-primary px-5" href="#" onclick="return false;">Reserva</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mb-5">
+            <a href="#Playa" class="btn btn-outline-secondary">Ir arriba</a>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-4 pb-3 border-top border-primary border-3">
+        <div class="container text-center">
+            <p class="small mb-0">La Brújula de Viajes - Derechos Reservados® 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
