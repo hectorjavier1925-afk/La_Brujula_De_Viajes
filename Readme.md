@@ -12,9 +12,11 @@ el Cliente DAW901
 * **Proyecto:** Plataforma de Turismo de el Salvador
 
 Integrantes 
-* **Héctor [Tu Apellido]** - Carnet: [Tu Carnet]
-* [MAÑANA AGREGÁS A TUS COMPAÑEROS AQUÍ]
-
+Yesenia Elizabeth Guevara Centeno CG253410
+Yesenia Guadalupe Alas Cruz AC253152
+Ernesto Davis Perdomo Barraza PB253383
+Gustavo Adolfo Navarro Martinez NM181601
+Hector Javier Catalan Guevara CG253468
  Enlaces Importantes
 * **🚀 Hosting (Sitio en vivo):**  https://hectorjavier1925-afk.github.io/La_Brujula_De_Viajes/ 
 * **📺 Defensa del Proyecto:** [PENDIENTE - Link de YouTube]
