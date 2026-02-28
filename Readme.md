@@ -25,7 +25,7 @@ Hector Javier Catalan Guevara CG253468
 
  Enlaces Importantes
 * **🚀 Hosting (Sitio en vivo):**  https://hectorjavier1925-afk.github.io/La_Brujula_De_Viajes/ 
-* **📺 Defensa del Proyecto:** [PENDIENTE - Link de YouTube]
+* **📺 Defensa del Proyecto:** https://www.youtube.com/watch?v=kLpoQPaxt34
 * **📂 Repositorio Oficial:** https://github.com/hectorjavier1925-afk/La_Brujula_De_Viajes 
 
  Detalles Técnicos
