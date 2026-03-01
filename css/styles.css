@@ -8132,7 +8132,7 @@ textarea.form-control-lg {
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-success {
@@ -11203,4 +11203,32 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Catamaran", sans-serif !important;
+}
+
+
+/* se agrego para barra lateral */
+.sidebar {
+  flex: 1;
+  display; flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.sidebar-item {
+background: #fff; padding: 10px;
+display: flex;
+align-items: center; gap: 10px;
+cursor: pointer;
+border: 1px solid #ccc;
+font-size: 0.9rem;
+}
+
+.sidebar-item img { width: 50px; height: 50px; object-fit: cover; }
+
+.btn-back {
+padding: 10px; cursor: pointer; background: #333; color: white;
+border: none;
+border-radius: 4px;
+align-items: center;
 }
