@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
@@ -30,68 +30,86 @@
         </nav>
     </header>
 
-    <div class="container-fluid mt-5">
-        <br><br>
-        <h1 class="fw-light text-center">Opciones Turísticas en El Salvador</h1>
-        <h2 class="lead text-body-secondary text-center">¡Viaja con nosotros!</h2>
-        <p class="lead text-body-secondary text-center px-5">
-            Tenemos diferentes opciones de viajes según tus gustos y preferencias. Puedes optar por las hermosas Playas, el clima fresco de las Montañas o nuestras lindas Ciudades en El Salvador.
-        </p>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <main class="col-md-9 order-md-1">
+                <br><br>
+                <h1 class="fw-light text-center">Opciones Turísticas en El Salvador</h1>
+                <h2 class="lead text-body-secondary text-center">¡Viaja con nosotros!</h2>
+                <p class="lead text-body-secondary text-center px-5">
+                    Tenemos diferentes opciones de viajes según tus gustos y preferencias. Puedes optar por las hermosas Playas, el clima fresco de las Montañas o nuestras lindas Ciudades en El Salvador.
+                </p>
 
-        <div class="row mt-3 px-4">
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div style="position: relative; overflow: hidden;">
-                        <img src="imgs/beaches.jpg" alt="Playas" class="img-fluid rounded" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                <div class="row mt-3 px-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div style="position: relative; overflow: hidden;">
+                                <img src="imgs/beaches.jpg" alt="Playas" class="img-fluid rounded" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            </div>
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title">Playas</h5>
+                                <p class="card-text">Visita y disfruta de las mejores Playas.</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-info" onclick="return false;">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body text-center d-flex flex-column">
-                        <h5 class="card-title">Playas</h5>
-                        <p class="card-text">Visita y disfruta de las mejores Playas.</p>
-                        <div class="mt-auto">
-                            <a href="#" class="btn btn-primary" onclick="return false;">Ver más</a>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div style="position: relative; overflow: hidden;">
+                                <img src="imgs/volcanes.jpg" alt="Montañas" class="img-fluid rounded" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            </div>
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title">Montañas</h5>
+                                <p class="card-text">Disfruta de hermosas vistas en nuestras Montañas.</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-info" onclick="return false;">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div style="position: relative; overflow: hidden;">
+                                <img src="imgs/pueblos.jpg" alt="Ciudades" class="img-fluid rounded" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                            </div>
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title">Ciudades</h5>
+                                <p class="card-text">Diviértete en las mejores actividades de la ciudad.</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-info" onclick="return false;">Ver más</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
+        
 
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div style="position: relative; overflow: hidden;">
-                        <img src="imgs/volcanes.jpg" alt="Montañas" class="img-fluid rounded" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column">
-                        <h5 class="card-title">Montañas</h5>
-                        <p class="card-text">Disfruta de hermosas vistas en nuestras Montañas.</p>
-                        <div class="mt-auto">
-                            <a href="#" class="btn btn-primary" onclick="return false;">Ver más</a>
-                        </div>
-                    </div>
+            <aside class="sidebar col-md-3 order-md-2 mt-5 align-items-center">
+                <button onclick="location.href='index.html'" class="btn-back">Ir a inicio</button>
+                <div class="sidebar-item mt-2" id="side-1" onclick="location.href='Playas.html'">
+                    <img src="imgs/Espino2.webp" alt="Mini"> <span>Playas en El Salvador</span>
                 </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div style="position: relative; overflow: hidden;">
-                        <img src="imgs/pueblos.jpg" alt="Ciudades" class="img-fluid rounded" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                    </div>
-                    <div class="card-body text-center d-flex flex-column">
-                        <h5 class="card-title">Ciudades</h5>
-                        <p class="card-text">Diviértete en las mejores actividades de la ciudad.</p>
-                        <div class="mt-auto">
-                            <a href="#" class="btn btn-primary" onclick="return false;">Ver más</a>
-                        </div>
-                    </div>
+                <div class="sidebar-item mt-2" id="side-2" onclick="location.href='Montañas.html'">
+                    <img src="imgs/volcanes.jpg" alt="Mini"> <span>Rutas de Montaña</span>
                 </div>
-            </div>
+                <div class="sidebar-item mt-2" id="side-3" onclick="location.href='Turismo.html'">
+                    <img src="imgs/CentroHistorico4.jpg" alt="Mini"> <span>Turismo</span>
+                </div>
+            </aside>
         </div>
     </div>
 
     <footer class="bg-dark text-white pt-4 pb-3 border-top border-primary border-3">
         <div class="container text-center">
             <div class="d-flex justify-content-center gap-3 mb-3">
-                <a href="#" class="text-white"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-whatsapp fa-2x"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-facebook fa-1x"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp fa-1x"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter fa-1x"></i></a>
             </div>
             <p class="small mb-0">La Brújula de Viajes - Derechos Reservados® 2026</p>
         </div>
