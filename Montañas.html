@@ -30,69 +30,94 @@
         </nav>
     </header>
 
-    <div class="container mt-5">
-        <h1 id="Montaña" class="fw-light text-center py-4">Rutas de Montaña en El Salvador</h1>
 
-        <div id="carouselMontañas" class="carousel slide mb-5" data-bs-ride="carousel">
-            <div class="carousel-inner rounded shadow">
-                <div class="carousel-item active" data-bs-interval="4000">
-                    <img src="imgs/volcanes.jpg" class="d-block w-100" style="height:400px; object-fit: cover;">
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="imgs/CerroVerde3.jpg" class="d-block w-100" style="height:400px; object-fit: cover;">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMontañas" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselMontañas" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <main class="col-md-9 order-md-1">
 
-        <h2 class="fw-light text-center mb-4">Disfruta del clima fresco</h2>
+                <h1 id="Montaña" class="fw-light text-center py-4">Rutas de Montaña en El Salvador</h1>
 
-        <div class="card mb-5 border-0 shadow-sm overflow-hidden">
-            <div class="row g-0 bg-success bg-opacity-10">
-                <div class="col-md-6">
-                    <img src="imgs/volcanes.jpg" class="img-fluid w-100" style="height:400px; object-fit: cover;" alt="Cerro Verde">
-                </div>
-                <div class="col-md-6 d-flex flex-column">
-                    <div class="card-body">
-                        <h5 class="card-title">Parque Nacional Cerro Verde</h5>
-                        <p class="card-text">Ubicado en el departamento de Santa Ana, ofrece una vista impresionante hacia el Volcán de Izalco y el de Santa Ana. Un lugar perfecto para el senderismo y disfrutar de la naturaleza en su máxima expresión.</p>
+                <div id="carouselMontañas" class="carousel slide mb-5" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded shadow">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <img src="imgs/volcanes.jpg" class="d-block w-100" style="height:400px; object-fit: cover;">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <img src="imgs/CerroVerde3.jpg" class="d-block w-100" style="height:400px; object-fit: cover;">
+                        </div>
                     </div>
-                    <div class="text-center pb-4 mt-auto">
-                        <a class="btn btn-primary px-5" href="#" onclick="return false;">Reserva</a>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMontañas" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselMontañas" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
                 </div>
-            </div>
-        </div>
 
-        <div class="card mb-5 border-0 shadow-sm overflow-hidden">
-            <div class="row g-0 bg-success bg-opacity-10">
-                <div class="col-md-6 order-md-2">
-                    <img src="imgs/ElPital.jpg" class="img-fluid w-100" style="height:400px; object-fit: cover;" alt="El Pital">
-                </div>
-                <div class="col-md-6 d-flex flex-column order-md-1">
-                    <div class="card-body">
-                        <h5 class="card-title">Cerro El Pital</h5>
-                        <p class="card-text">El punto más alto de El Salvador. Con un clima helado único en el país, es el sitio ideal para acampar y desconectarse del ruido de la ciudad en un ambiente natural.</p>
-                    </div>
-                    <div class="text-center pb-4 mt-auto">
-                        <a class="btn btn-primary px-5" href="#" onclick="return false;">Reserva</a>
+                <h2 class="fw-light text-center mb-4">Disfruta del clima fresco</h2>
+
+                <div class="card mb-5 border-0 shadow-sm overflow-hidden">
+                    <div class="row g-0 bg-success bg-opacity-10">
+                        <div class="col-md-6">
+                            <img src="imgs/volcanes.jpg" class="img-fluid w-100" style="height:400px; object-fit: cover;" alt="Cerro Verde">
+                        </div>
+                        <div class="col-md-6 d-flex flex-column">
+                            <div class="card-body">
+                                <h5 class="card-title">Parque Nacional Cerro Verde</h5>
+                                <p class="card-text">Ubicado en el departamento de Santa Ana, ofrece una vista impresionante hacia el Volcán de Izalco y el de Santa Ana. Un lugar perfecto para el senderismo y disfrutar de la naturaleza en su máxima expresión.</p>
+                            </div>
+                            <div class="text-center pb-4 mt-auto">
+                                <a class="btn btn-info px-5" href="#" onclick="return false;">Reserva</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="text-center mb-5">
-            <a href="#Montaña" class="btn btn-outline-secondary">Ir arriba</a>
+                <div class="card mb-5 border-0 shadow-sm overflow-hidden">
+                    <div class="row g-0 bg-success bg-opacity-10">
+                        <div class="col-md-6 order-md-2">
+                            <img src="imgs/ElPital.jpg" class="img-fluid w-100" style="height:400px; object-fit: cover;" alt="El Pital">
+                        </div>
+                        <div class="col-md-6 d-flex flex-column order-md-1">
+                            <div class="card-body">
+                                <h5 class="card-title">Cerro El Pital</h5>
+                                <p class="card-text">El punto más alto de El Salvador. Con un clima helado único en el país, es el sitio ideal para acampar y desconectarse del ruido de la ciudad en un ambiente natural.</p>
+                            </div>
+                            <div class="text-center pb-4 mt-auto">
+                                <a class="btn btn-info px-5" href="#" onclick="return false;">Reserva</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mb-5">
+                    <a href="#Montaña" class="btn btn-outline-secondary">Ir arriba</a>
+                </div>
+            </main>
+
+            <aside class="sidebar col-md-3 order-md-2 mt-5 align-items-center">
+                <button onclick="location.href='index.html'" class="btn-back">Ir a inicio</button>
+                <div class="sidebar-item mt-2" id="side-1" onclick="location.href='Playas.html'">
+                    <img src="imgs/Espino2.webp" alt="Mini"> <span>Playas en El Salvador</span>
+                </div>
+                <div class="sidebar-item mt-2" id="side-2" onclick="location.href='Montañas.html'">
+                    <img src="imgs/volcanes.jpg" alt="Mini"> <span>Rutas de Montaña</span>
+                </div>
+                <div class="sidebar-item mt-2" id="side-3" onclick="location.href='Turismo.html'">
+                    <img src="imgs/CentroHistorico4.jpg" alt="Mini"> <span>Turismo</span>
+                </div>
+            </aside>
         </div>
     </div>
 
+
     <footer class="bg-dark text-white pt-4 pb-3 border-top border-primary border-3">
         <div class="container text-center">
+            <div class="d-flex justify-content-center gap-3 mb-3">
+                <a href="#" class="text-white"><i class="fab fa-facebook fa-1x"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp fa-1x"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter fa-1x"></i></a>
+            </div>
             <p class="small mb-0">La Brújula de Viajes - Derechos Reservados® 2026</p>
         </div>
     </footer>
